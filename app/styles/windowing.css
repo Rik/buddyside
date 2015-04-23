@@ -1,0 +1,18 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+iframe {
+  background: white;
+  border: 0;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.KBFrame {
+  height: calc(100% - 50px); /* Remove header height */
+}

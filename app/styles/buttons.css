@@ -1,0 +1,9 @@
+.skin-organic section[role="region"] > header:first-child a:focus {
+  background-color: rgba(0, 0, 0, 0.07);
+}
+
+button:focus,
+.bb-button:focus {
+  background-color: #b2f2ff;
+  color: #fff;
+}

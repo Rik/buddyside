@@ -1,0 +1,24 @@
+{
+  "name": "simple-brunch",
+  "version": "0.1.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.13.2",
+    "lodash": "~3.7.0",
+    "react-router": "~0.13.2"
+  },
+  "overrides": {
+    "react-router": {
+      "dependencies": {
+        "react": "*"
+      }
+    }
+  }
+}

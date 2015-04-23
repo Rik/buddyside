@@ -1,0 +1,34 @@
+/* utils */
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.no-border {
+    border: 0;
+}
+.hide {
+    display: none !important;
+}
+.spinner:before {
+    display: inline-block;
+    position: absolute;
+    top: 17%;
+    left: 90%;
+    content: attr(data-icon);
+    font-size: 2rem;
+    transform-origin: center;
+    animation: spinner 2s ease-in-out infinite;
+    z-index: 1000;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

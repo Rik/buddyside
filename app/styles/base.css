@@ -1,0 +1,42 @@
+html {
+  /* Use the same base size as Gaia for building blocks using rem units*/
+  font-size: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+a {
+  color: unset;
+  text-decoration: none;
+}
+body,
+textarea {
+  font-family: 'Fira Sans';
+}
+main {
+  position: relative;
+  scroll-behavior: smooth;
+}
+hr {
+  background: #e7e7e7;
+  border: none;
+  height: 1px;
+  margin: 0 0 10px;
+}
+
+/* Makes the vertical boxes scrollable */
+.vbox {
+  min-height: 0;
+}
+.text-blue {
+  color: #3fc2d5;
+}
+.margin-10 {
+  margin: 10px;
+}
+
+/* Overrides confirm.css to adapt to the number of buttons */
+form[role="dialog"][data-type="confirm"] menu {
+    display: flex !important;
+}

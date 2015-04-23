@@ -1,0 +1,15 @@
+{
+  "name": "buddyside",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "autoprefixer-brunch": "^1.8.4",
+    "babel-brunch": "^5.0.0",
+    "brunch": "^1.7.20",
+    "css-brunch": "^1.7.0",
+    "javascript-brunch": "^1.7.1"
+  },
+  "dependencies": {
+
+  }
+}

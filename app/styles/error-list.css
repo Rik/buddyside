@@ -1,0 +1,16 @@
+.ErrorList {
+    color: #e51e1e;
+    font-size: 14px;
+}
+.ErrorList > li {
+    margin-bottom: 6px;
+}
+.ErrorList > li:last-of-type {
+    margin-bottom: 10px;
+}
+.ErrorList--field > li {
+    margin-top: -4px; /* Used to counter the margin under input fields */
+}
+.ErrorList--auth {
+    margin-left: 15px;
+}

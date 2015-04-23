@@ -1,0 +1,28 @@
+/* icons */
+@font-face {
+  font-family: "gaia-icons";
+  src: url("../media/fonts/gaia-icons.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+[data-icon]:before {
+    content: attr(data-icon);
+    font-family: "gaia-icons";
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+}
+[data-icon-after]:after {
+    content: attr(data-icon-after);
+    float: right;
+    font-family: "gaia-icons";
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* This titanic selector is needed to override the one in header.css */
+/* We need icons to be gray and straight, so overriding */
+.skin-organic section[role="region"] > header:first-child [data-icon] {
+  color: #868692;
+  font-style: normal;
+  font-size: 2rem;
+}
